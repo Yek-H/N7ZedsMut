@@ -160,4 +160,7 @@ defaultProperties
     MaxFireInterval=3.500000
     ProjectileFireInterval=10.00000
     HuskFireProjClass=class'N7_HuskFireProjectile'
+    HealthMax=1200
+    Health=1200
+    PlayerCountHealthScale=0.300000
 }

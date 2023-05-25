@@ -405,9 +405,9 @@ defaultProperties
 {
     MenuName="N7 Pseudo Stalker"
     ScoringValue=0
-    Health=5
-    HeadHealth=5
-    HealthMax=5
+    Health=100
+    HeadHealth=100
+    HealthMax=100
     AdjustedHealthModifier=1.0
     AdjustedHeadHealthModifier=1.0
     bBlockActors=False

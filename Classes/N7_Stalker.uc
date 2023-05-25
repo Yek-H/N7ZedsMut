@@ -352,4 +352,7 @@ defaultProperties
     PseudoClass=class'N7_PseudoStalker'
     Skins(2)=FinalBlend'KF_Specimens_Trip_T.stalker_fb'
     Skins(3)=Combiner'KF_Specimens_Trip_T.stalker_cmb'
+    HealthMax=200
+    Health=200
+    PlayerCountHealthScale=0.300000
 }

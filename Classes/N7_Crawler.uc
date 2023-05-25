@@ -13,4 +13,6 @@ defaultProperties
     MenuName="N7 Crawler"
     GroundSpeed=180.00000
     WaterSpeed=160.00000
+    HealthMax=140
+    Health=140
 }

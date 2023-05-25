@@ -54,4 +54,7 @@ state RunningState
 defaultProperties
 {
     MenuName="N7 Scrake"
+    HealthMax=2000
+    Health=2000
+    PlayerCountHealthScale=0.400000
 }

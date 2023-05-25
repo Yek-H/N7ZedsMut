@@ -130,4 +130,7 @@ defaultProperties
     ShakeEffectScalar=4.500000
     MinShakeEffectScale=3.250000
     ScreamDamageType=class'N7_SirenScreamDamage'
+    HealthMax=600
+    Health=600
+    PlayerCountHealthScale=0.300000
 }

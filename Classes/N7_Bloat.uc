@@ -5,5 +5,4 @@ defaultProperties
     MenuName="N7 Bloat"
      HealthMax=1050
      Health=1050
-     PlayerCountHealthScale=0.300000
 }

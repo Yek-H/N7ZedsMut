@@ -100,4 +100,7 @@ defaultProperties
     ChargeSpeedModifier=1.875
     GroundSpeed=140.000000
     RageDistance=1000
+     HealthMax=500
+     Health=500
+     PlayerCountHealthScale=0.300000
 }

@@ -15,4 +15,5 @@ defaultProperties
     WaterSpeed=160.00000
     HealthMax=140
     Health=140
+    PlayerCountHealthScale=0.300000
 }

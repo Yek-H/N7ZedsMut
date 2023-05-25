@@ -434,9 +434,9 @@ defaultProperties
 {
     MenuName="N7 Pseudo Patriarch"
     ScoringValue=0
-    Health=5000
-    HeadHealth=5000
-    HealthMax=5000
+    Health=3750
+    HeadHealth=3750
+    HealthMax=3750
     AdjustedHealthModifier=1.0
     AdjustedHeadHealthModifier=1.0
     bBlockActors=False

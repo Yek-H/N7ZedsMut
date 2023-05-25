@@ -1079,26 +1079,26 @@ NextShot:
     AnimEnd(0);
 }
 
-/** No zapped behaviour */
+/** Inmunidad armas Zeds */
 function SetZapped(float ZapAmount, Pawn Instigator) {}
 
 simulated function SetZappedBehavior() {}
 simulated function UnSetZappedBehavior() {}
 
-/** No crisping up */
+/** */
 simulated function ZombieCrispUp() {}
 
 defaultProperties
 {
     MenuName="N7 Patriarch"
 
-    CombatStages(0)=(bCanKite=True,KiteChance=1.0,bSpawnPseudos=False,MinPseudos=0,MaxPseudos=0,CGShots=75,RLShots=1,CGFireRate=0.05,RLFireRate=0.5,bUseShield=False,ShieldChance=0.0,ShieldDuration=0.0,bUseTeleport=False,TeleportChance=0.0)
-    CombatStages(1)=(bCanKite=False,KiteChance=0.35,bSpawnPseudos=False,MinPseudos=0,MaxPseudos=0,CGShots=100,RLShots=1,CGFireRate=0.04,RLFireRate=0.4,bUseShield=False,ShieldChance=0.0,ShieldDuration=0.0,bUseTeleport=False,TeleportChance=0.0)
-    CombatStages(2)=(bCanKite=False,KiteChance=0.2,bSpawnPseudos=False,MinPseudos=0,MaxPseudos=0,CGShots=100,RLShots=2,CGFireRate=0.035,RLFireRate=0.3,bUseShield=True,ShieldChance=0.05,ShieldDuration=1.0,bUseTeleport=True,TeleportChance=0.1)
-    CombatStages(3)=(bCanKite=False,KiteChance=0.1,bSpawnPseudos=True,MinPseudos=3,MaxPseudos=5,CGShots=125,RLShots=3,CGFireRate=0.03,RLFireRate=0.2,bUseShield=True,ShieldChance=0.05,ShieldDuration=2.0,bUseTeleport=True,TeleportChance=0.15)
+    CombatStages(0)=(bCanKite=True,KiteChance=1.0,bSpawnPseudos=False,MinPseudos=0,MaxPseudos=0,CGShots=75,RLShots=3,CGFireRate=0.05,RLFireRate=0.5,bUseShield=False,ShieldChance=2.5,ShieldDuration=1.0,bUseTeleport=False,TeleportChance=0.0)
+    CombatStages(1)=(bCanKite=False,KiteChance=0.35,bSpawnPseudos=False,MinPseudos=0,MaxPseudos=0,CGShots=100,RLShots=4,CGFireRate=0.04,RLFireRate=0.4,bUseShield=False,ShieldChance=5,ShieldDuration=2.0,bUseTeleport=False,TeleportChance=0.0)
+    CombatStages(2)=(bCanKite=False,KiteChance=0.2,bSpawnPseudos=True,MinPseudos=1,MaxPseudos=2,CGShots=100,RLShots=5,CGFireRate=0.035,RLFireRate=0.3,bUseShield=True,ShieldChance=10,ShieldDuration=3.0,bUseTeleport=True,TeleportChance=0.1)
+    CombatStages(3)=(bCanKite=False,KiteChance=0.1,bSpawnPseudos=True,MinPseudos=3,MaxPseudos=5,CGShots=125,RLShots=6,CGFireRate=0.03,RLFireRate=0.2,bUseShield=True,ShieldChance=15,ShieldDuration=5.0,bUseTeleport=True,TeleportChance=0.15)
 
-    Health=5000
-    HealthMax=5000.000000
+    Health=8500
+    HealthMax=8500.000000
     MinChargeDistance=500
     MaxChargeDistance=1000
     TeleportDistance=1250

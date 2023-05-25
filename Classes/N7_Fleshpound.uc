@@ -96,4 +96,5 @@ defaultProperties
     MenuName="N7 Fleshpound"
      HealthMax=3000
      Health=3000
+     PlayerCountHealthScale=0.400000
 }
